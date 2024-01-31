@@ -28,12 +28,12 @@ spec:
               name: rootstock-client-gateway-secret
           name: web
           resources:
-          requests:
-            memory: "384Mi"
-            cpu: "100m"
-          limits:
-            memory: "384Mi"
-            cpu: "200m"
+            requests:
+              memory: "384Mi"
+              cpu: "100m"
+            limits:
+              memory: "384Mi"
+              cpu: "200m"
           tty: true
           volumeMounts:
             - mountPath: /nginx
