@@ -28,9 +28,11 @@
     "REDIS_URI_MAINNET": "redis://gnosis.axfxfv.ng.0001.use2.cache.amazonaws.com:6379"
   },
   "DEV_ENV_VARS": {
-    "CONFIG_SERVICE_URI": "https://safe-config.test.sovryn.app"
+    "CONFIG_SERVICE_URI": "https://safe-config.test.sovryn.app",
+    "INGRESS_HOSTNAME": "safe-client.test.sovryn.app"
   },
   "PROD_ENV_VARS": {
-    "CONFIG_SERVICE_URI": "https://safe-config.sovryn.app"
+    "CONFIG_SERVICE_URI": "https://safe-config.sovryn.app",
+    "INGRESS_HOSTNAME": "safe-client.sovryn.app"
   }
 }
